@@ -1,0 +1,10 @@
+git init
+git config user.name "user"
+git config user.email "mail"
+git add .
+git commit -m "test"
+git push -u origin master
+
+
+git config --global --unset user.name
+git config --global --unset user.email
